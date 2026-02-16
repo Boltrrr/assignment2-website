@@ -24,7 +24,6 @@ I used ChatGPT to support project development. Specifically:
 ChatGPT helped generate a sticky navbar.
 ChatGPT helped create initial CSS for CSS Grid cards.
 ChatGPT helped suggest accessibility improvements like labels and alt text.
-ChatGPT helped add a form ID and script to prevent 405 error on contact page.
 
 What I learned:
 How CSS Grid can create responsive card layouts.
