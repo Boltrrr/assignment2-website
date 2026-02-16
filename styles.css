@@ -16,8 +16,55 @@ body {
   margin: 0 auto;
 }
 
+/* AI-assisted: ChatGPT suggested this translucent navbar */
 header {
   border-bottom: 1px solid #2a2a2a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: rgba(18, 18, 18, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.logo img {
+  height: 40px;
+  display: block;
+}
+
+.hero {
+  width: 100%;
+  min-height: 60vh;
+
+  background-image: url("images/hero.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 60px 20px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
 }
 
 /* Flexbox */
